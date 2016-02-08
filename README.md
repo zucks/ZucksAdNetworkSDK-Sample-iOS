@@ -13,4 +13,5 @@ iOS版ZucksAdNetworkSDKの導入サンプルアプリ
 ## ZucksAdNetworkSDKの導入手順
 
 SDKの導入手順に関しては下記ページをご確認ください。
+
 [https://ms.zucksadnetwork.com/media/sdk/manual/ios/](https://ms.zucksadnetwork.com/media/sdk/manual/ios/)
