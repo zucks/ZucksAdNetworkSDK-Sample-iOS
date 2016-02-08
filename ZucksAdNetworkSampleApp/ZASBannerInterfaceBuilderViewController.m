@@ -1,20 +1,21 @@
 //
-//  ZASBannerAutoLayoutViewController.m
+//  ZASBannerInterfaceBuilderViewController.h
 //  ZucksAdNetworkSampleApp
 //
 // Copyright (C) 2016 Zucks, Inc.
 //
 
-#import "ZASBannerAutoLayoutViewController.h"
+#import "ZASBannerInterfaceBuilderViewController.h"
 @import ZucksAdNetworkSDK;
 
-@interface ZASBannerAutoLayoutViewController ()<ZADNBannerViewDelegate>
+@interface ZASBannerInterfaceBuilderViewController ()<ZADNBannerViewDelegate>
 @end
 
-@implementation ZASBannerAutoLayoutViewController
+@implementation ZASBannerInterfaceBuilderViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  // ZADNBannerViewの実装はMain.storyboard上で行っています
 }
 
 - (void)didReceiveMemoryWarning {
