@@ -1,5 +1,5 @@
 //
-//  ZucksAdSdk.h
+//  ZADNSdk.h
 //  ZucksAdNetworkSDK
 //
 //  Copyright (C) 2015 Zucks, Inc.

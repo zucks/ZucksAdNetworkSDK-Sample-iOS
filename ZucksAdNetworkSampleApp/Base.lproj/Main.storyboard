@@ -43,7 +43,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Banner Auto Layout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5cl-Fm-aiF">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Banner Interface Builder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5cl-Fm-aiF">
                                                     <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="1798" y="-254"/>
         </scene>
-        <!--Delegate-->
+        <!--Banner Interface Builder-->
         <scene sceneID="7Jy-1p-TA5">
             <objects>
-                <viewController title="Banner Interface Builder" id="6I3-Qq-eGq" customClass="ZASBannerAutoLayoutViewController" sceneMemberID="viewController">
+                <viewController title="Banner Interface Builder" id="6I3-Qq-eGq" userLabel="Banner Interface Builder" customClass="ZASBannerInterfaceBuilderViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pyY-Zm-caY"/>
                         <viewControllerLayoutGuide type="bottom" id="QRZ-j2-dth"/>
