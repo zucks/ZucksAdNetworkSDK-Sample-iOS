@@ -1,3 +1,7 @@
 framework module ZucksAdNetworkSDK {
   umbrella "Headers"
+
+  link framework "AdSupport"
+  link framework "CoreTelephony"
+  link framework "SystemConfiguration"
 }
