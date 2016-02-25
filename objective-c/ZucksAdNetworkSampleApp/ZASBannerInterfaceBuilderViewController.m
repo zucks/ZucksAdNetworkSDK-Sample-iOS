@@ -25,14 +25,14 @@
 // 広告の各イベントで処理を行いたい場合に実装してください(任意)
 #pragma mark ZADNBannerViewDelegate methods
 - (void)bannerViewDidReceiveAd:(ZADNBannerView *)bannerView {
-  // 広告情報受信完了時
-  NSLog(@"広告情報受信完了");
+  // 広告情報ロード完了時
+  NSLog(@"広告情報ロード完了");
 }
 
 - (void)bannerView:(ZADNBannerView *)bannerView
     didFailAdWithErrorType:(ZADNBannerErrorType)errorType {
-  // 広告情報受信エラー時
-  NSLog(@"広告情報受信エラー エラータイプ=%d", (int)errorType);
+  // 広告情報ロードエラー時
+  NSLog(@"広告情報ロードエラー");
 }
 
 - (void)bannerViewDidTapAd:(ZADNBannerView *)bannerView {
