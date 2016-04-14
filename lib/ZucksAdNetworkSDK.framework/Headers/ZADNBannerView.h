@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
 
 @interface ZADNBannerView : UIView
 
-@property(copy, nonatomic) NSString *frameId;
+@property(copy, nonatomic) IBInspectable NSString *frameId;
 @property(weak, nonatomic) IBOutlet id<ZADNBannerViewDelegate> delegate;
 
 - (instancetype)initWithFrame:(CGRect)frame frameId:(NSString *)frameId;

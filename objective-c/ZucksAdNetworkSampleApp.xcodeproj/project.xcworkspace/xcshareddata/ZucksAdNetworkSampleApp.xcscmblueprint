@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3CA9E1707CFD7E2125E2531A1438942FDDC32814",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3CA9E1707CFD7E2125E2531A1438942FDDC32814" : 0,
+    "BF9BACC9A24CE7598CA198602355B960B3F9F80F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E79EC907-7B2A-4B3F-8EEA-13F128365D2F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3CA9E1707CFD7E2125E2531A1438942FDDC32814" : "ZucksAdNetworkSDK-Sample-iOS\/",
+    "BF9BACC9A24CE7598CA198602355B960B3F9F80F" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZucksAdNetworkSampleApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objective-c\/ZucksAdNetworkSampleApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zucks\/ZucksAdNetworkSDK-Sample-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3CA9E1707CFD7E2125E2531A1438942FDDC32814"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/voyagegroup\/glipheptin-i.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF9BACC9A24CE7598CA198602355B960B3F9F80F"
+    }
+  ]
+}
