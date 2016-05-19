@@ -128,10 +128,10 @@
             </objects>
             <point key="canvasLocation" x="1798" y="-558"/>
         </scene>
-        <!--Banner Size Adjust View Controller-->
+        <!--Banner Size Adjust-->
         <scene sceneID="4ac-lp-s7v">
             <objects>
-                <viewController id="c1S-ci-YYZ" customClass="ZASBannerSizeAdjustViewController" sceneMemberID="viewController">
+                <viewController title="Banner Size Adjust" id="c1S-ci-YYZ" customClass="ZASBannerSizeAdjustViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uNf-qP-wA0"/>
                         <viewControllerLayoutGuide type="bottom" id="ZA1-hp-dN3"/>

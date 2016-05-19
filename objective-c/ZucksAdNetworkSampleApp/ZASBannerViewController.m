@@ -16,7 +16,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  // 画面下部にバナーを配置
+  // 画面下部にバナーを配置(表示位置や枠のサイズに応じて、値を変更してください)
   CGSize bannerSize = CGSizeMake(320.0, 50.0);
   CGFloat x = (self.view.frame.size.width - bannerSize.width) / 2.0;
   CGFloat y = self.view.frame.size.height - bannerSize.height;

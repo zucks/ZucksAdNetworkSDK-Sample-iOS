@@ -14,6 +14,7 @@ class BannerSizeAdjustViewController: UIViewController {
     super.viewDidLoad()
 
     // 画面下部にバナーを配置する例(表示位置や枠のサイズに応じて、値を変更してください)
+    // 拡大後のバナーサイズを取得
     let bannerSize = ZADNBannerView.adjustedBannerSize(CGSizeMake(320.0, 50.0))
     let x = (self.view.frame.size.width - bannerSize.width) / 2.0
     let y = self.view.frame.size.height - bannerSize.height

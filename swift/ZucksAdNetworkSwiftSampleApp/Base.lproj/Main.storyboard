@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Banner View Controller-->
+        <!--Banner-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="BannerViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Banner" id="BYZ-38-t0r" customClass="BannerViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="1571" y="-41"/>
         </scene>
-        <!--Banner Size Adjust View Controller-->
+        <!--Banner Size Adjust-->
         <scene sceneID="9Xh-Lv-85I">
             <objects>
-                <viewController id="kh3-pu-97X" customClass="BannerSizeAdjustViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Banner Size Adjust" id="kh3-pu-97X" customClass="BannerSizeAdjustViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Pk-BL-DWq"/>
                         <viewControllerLayoutGuide type="bottom" id="tGr-A7-u0P"/>
@@ -45,7 +45,7 @@
         <!--Banner Interface Builder-->
         <scene sceneID="1ub-mZ-1us">
             <objects>
-                <viewController id="gAG-ZE-5Ee" userLabel="Banner Interface Builder" customClass="BannerInterfaceBuilderViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Banner Interface Builder" id="gAG-ZE-5Ee" userLabel="Banner Interface Builder" customClass="BannerInterfaceBuilderViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="24h-ND-pfU"/>
                         <viewControllerLayoutGuide type="bottom" id="nQm-TO-ffi"/>
@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="1571" y="1307"/>
         </scene>
-        <!--Interstitial View Controller-->
+        <!--Interstitial-->
         <scene sceneID="Mm0-q0-P4Y">
             <objects>
-                <viewController id="Itq-9v-4uW" customClass="InterstitialViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Interstitial" id="Itq-9v-4uW" customClass="InterstitialViewController" customModule="ZucksAdNetworkSwiftSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nN3-Vk-HDF"/>
                         <viewControllerLayoutGuide type="bottom" id="Dh5-4S-bwb"/>
