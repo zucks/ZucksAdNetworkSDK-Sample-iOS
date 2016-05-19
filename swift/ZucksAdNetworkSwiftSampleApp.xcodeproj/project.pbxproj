@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AAF379A1CED9ED40073A52B /* BannerSizeAdjustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF37991CED9ED40073A52B /* BannerSizeAdjustViewController.swift */; };
 		3ABA02E41C7AAAAD0059A352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA02E31C7AAAAD0059A352 /* AppDelegate.swift */; };
 		3ABA02E61C7AAAAD0059A352 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA02E51C7AAAAD0059A352 /* BannerViewController.swift */; };
 		3ABA02E91C7AAAAD0059A352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA02E71C7AAAAD0059A352 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AAF37991CED9ED40073A52B /* BannerSizeAdjustViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerSizeAdjustViewController.swift; sourceTree = "<group>"; };
 		3ABA02E01C7AAAAD0059A352 /* ZucksAdNetworkSwiftSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZucksAdNetworkSwiftSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABA02E31C7AAAAD0059A352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABA02E51C7AAAAD0059A352 /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				3ABA02E31C7AAAAD0059A352 /* AppDelegate.swift */,
 				3ABA02E51C7AAAAD0059A352 /* BannerViewController.swift */,
+				3AAF37991CED9ED40073A52B /* BannerSizeAdjustViewController.swift */,
 				3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */,
 				3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */,
 				3ABA02E71C7AAAAD0059A352 /* Main.storyboard */,
@@ -149,6 +152,7 @@
 				3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */,
 				3ABA02E61C7AAAAD0059A352 /* BannerViewController.swift in Sources */,
 				3ABA02E41C7AAAAD0059A352 /* AppDelegate.swift in Sources */,
+				3AAF379A1CED9ED40073A52B /* BannerSizeAdjustViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
