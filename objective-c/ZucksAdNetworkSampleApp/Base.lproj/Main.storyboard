@@ -36,8 +36,28 @@
                                             <segue destination="fHi-8a-4IO" kind="show" id="bYj-of-Nmg"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="5cl-Fm-aiF" style="IBUITableViewCellStyleDefault" id="r7s-wA-jFA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="hUG-jV-q1S" style="IBUITableViewCellStyleDefault" id="eEG-rQ-4zY">
                                         <rect key="frame" x="0.0" y="108" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eEG-rQ-4zY" id="Kxr-BU-zQs">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Banner Size Adjust" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hUG-jV-q1S">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="c1S-ci-YYZ" kind="show" id="fKE-en-6aS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="5cl-Fm-aiF" style="IBUITableViewCellStyleDefault" id="r7s-wA-jFA">
+                                        <rect key="frame" x="0.0" y="152" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r7s-wA-jFA" id="vNY-W1-j5q">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -57,7 +77,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="e09-RV-yAU" style="IBUITableViewCellStyleDefault" id="YeP-KH-R5y">
-                                        <rect key="frame" x="0.0" y="152" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="196" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YeP-KH-R5y" id="OoW-Tb-eEq">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -106,7 +126,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LfK-Ea-5YS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="-254"/>
+            <point key="canvasLocation" x="1798" y="-558"/>
+        </scene>
+        <!--Banner Size Adjust-->
+        <scene sceneID="4ac-lp-s7v">
+            <objects>
+                <viewController title="Banner Size Adjust" id="c1S-ci-YYZ" customClass="ZASBannerSizeAdjustViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uNf-qP-wA0"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZA1-hp-dN3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e5i-Db-WNI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJD-dC-MYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1798" y="129"/>
         </scene>
         <!--Banner Interface Builder-->
         <scene sceneID="7Jy-1p-TA5">
@@ -129,14 +167,28 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="frameId" value="_1d8ba78682"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="sizeAdjust" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="6I3-Qq-eGq" id="vqh-SK-bGR"/>
                                 </connections>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Fe-RV-ODr" customClass="ZADNBannerView">
+                                <rect key="frame" x="140" y="64" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="6IB-dv-rO4"/>
+                                    <constraint firstAttribute="height" constant="50" id="xHQ-mM-ajJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="frameId" value="_1d8ba78682"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="3Fe-RV-ODr" firstAttribute="top" secondItem="pyY-Zm-caY" secondAttribute="bottom" id="0Oe-Bh-DZU"/>
+                            <constraint firstItem="3Fe-RV-ODr" firstAttribute="centerX" secondItem="AWW-xs-MNU" secondAttribute="centerX" id="IK8-aL-A4N"/>
                             <constraint firstItem="QRZ-j2-dth" firstAttribute="top" secondItem="3IN-Ez-agR" secondAttribute="bottom" id="Ptd-qD-fzH"/>
                             <constraint firstItem="3IN-Ez-agR" firstAttribute="centerX" secondItem="AWW-xs-MNU" secondAttribute="centerX" id="jjp-8t-j31"/>
                         </constraints>
@@ -144,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6hk-Zx-zhU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="455"/>
+            <point key="canvasLocation" x="1798" y="811"/>
         </scene>
         <!--Interstitial-->
         <scene sceneID="4kb-WF-5Ez">
@@ -182,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7g1-VH-3dG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="1179"/>
+            <point key="canvasLocation" x="1798" y="1511"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zeh-Ew-bum">
