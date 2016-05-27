@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZADNPlatform.h"
 
 @protocol ZADNBannerViewDelegate;
 
@@ -20,6 +21,7 @@ typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
 
 @property(copy, nonatomic) IBInspectable NSString *frameId;
 @property(weak, nonatomic) IBOutlet id<ZADNBannerViewDelegate> delegate;
+@property(nonatomic) ZADNPlatform *platform;
 
 + (CGSize)adjustedBannerSize:(CGSize)baseSize;
 

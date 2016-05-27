@@ -9,7 +9,7 @@
 
 @interface ZADNSdk : NSObject
 
-+ (id)sharedInstance;
++ (instancetype)sharedInstance;
 + (void)setDebug:(BOOL)isDebug;
 + (BOOL)isDebug;
 
