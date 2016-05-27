@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZADNPlatform.h"
 
 @protocol ZADNInterstitialViewDelegate;
 
@@ -27,6 +28,7 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 
 @property(copy, nonatomic) NSString *frameId;
 @property(weak, nonatomic) id<ZADNInterstitialViewDelegate> delegate;
+@property(nonatomic) ZADNPlatform *platform;
 
 + (instancetype)sharedInstance;
 - (void)loadAd;
