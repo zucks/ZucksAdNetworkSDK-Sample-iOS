@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, ZADNPlatformType) {ZADNPlatformTypeDefault = 0,
-                                              ZADNPlatformTypeAdmob};
+typedef NS_ENUM(NSInteger, ZADNPlatformType) {
+    ZADNPlatformTypeDefault = 0, ZADNPlatformTypeAdmob, ZADNPlatformTypeUnity};
 
 @interface ZADNPlatform : NSObject
 
