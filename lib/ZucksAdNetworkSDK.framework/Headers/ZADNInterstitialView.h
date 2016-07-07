@@ -33,6 +33,7 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 + (instancetype)sharedInstance;
 - (void)loadAd;
 - (void)show;
+- (void)dismiss;
 
 - (id)initWithFrame:(CGRect)frame
     __attribute__((unavailable("initWithFrame is not available")));
