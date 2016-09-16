@@ -12,11 +12,11 @@ typedef NS_ENUM(NSInteger, ZADNPlatformType) {
 
 @interface ZADNPlatform : NSObject
 
-@property enum ZADNPlatformType platformType;
-@property(copy, nonatomic) NSString *platformVersion;
+@property enum ZADNPlatformType zucksPlatformType;
+@property(copy, nonatomic) NSString *zucksPlatformVersion;
 @property(copy, nonatomic) NSString *bridgeVersion;
 
-- (NSString *)platformName;
+- (NSString *)zucksPlatformName;
 - (void)reset;
 
 @end

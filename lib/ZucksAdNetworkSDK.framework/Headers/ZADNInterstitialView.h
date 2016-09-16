@@ -28,7 +28,7 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 
 @property(copy, nonatomic) NSString *frameId;
 @property(weak, nonatomic) id<ZADNInterstitialViewDelegate> delegate;
-@property(nonatomic) ZADNPlatform *platform;
+@property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (instancetype)sharedInstance;
 - (void)loadAd;
