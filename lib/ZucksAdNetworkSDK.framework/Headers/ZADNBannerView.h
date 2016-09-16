@@ -21,7 +21,7 @@ typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
 
 @property(copy, nonatomic) IBInspectable NSString *frameId;
 @property(weak, nonatomic) IBOutlet id<ZADNBannerViewDelegate> delegate;
-@property(nonatomic) ZADNPlatform *platform;
+@property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (CGSize)adjustedBannerSize:(CGSize)baseSize;
 
