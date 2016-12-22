@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "ZADNPlatform.h"
 
+NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNInterstitialViewDelegate;
 
 typedef NS_ENUM(NSInteger, ZADNInterstitialLoadErrorType) {
@@ -26,8 +27,8 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 
 @interface ZADNInterstitialView : UIView
 
-@property(copy, nonatomic) NSString *frameId;
-@property(weak, nonatomic) id<ZADNInterstitialViewDelegate> delegate;
+@property(nullable, copy, nonatomic) NSString *frameId;
+@property(nullable, weak, nonatomic) id<ZADNInterstitialViewDelegate> delegate;
 @property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (instancetype)sharedInstance;
@@ -54,3 +55,4 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 - (void)interstitialViewDidDismissAd;
 
 @end
+NS_ASSUME_NONNULL_END
