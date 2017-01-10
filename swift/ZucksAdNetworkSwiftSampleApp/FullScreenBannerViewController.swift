@@ -14,7 +14,7 @@ class FullScreenBannerViewController: UIViewController {
     super.viewDidLoad()
 
     // 広告表示領域を設定(アプリの状態に合わせて値を変更してください)
-    let statusBarHeight = UIApplication.sharedApplication().statusBarFrame.size.height
+    let statusBarHeight:CGFloat = 20.0
     let navigationBarHeight = self.navigationController!.navigationBar.frame.size.height
     let headerHeight = statusBarHeight + navigationBarHeight
     let frame = CGRect(x: 0.0, y: headerHeight, width: self.view.frame.size.width,
@@ -41,15 +41,15 @@ class FullScreenBannerViewController: UIViewController {
 // MARK: - ZADNFullScreenBannerViewDelegate methods
 // 広告の各イベントで処理を行いたい場合に実装してください(任意)
 extension FullScreenBannerViewController:ZADNFullScreenBannerViewDelegate {
-  func fullScreenBannerViewDidReceiveAd(fullScreenBannerView: ZADNFullScreenBannerView) {
+  func fullScreenBannerViewDidReceiveAd(_ fullScreenBannerView: ZADNFullScreenBannerView) {
     print("広告情報ロード完了")
   }
 
-  func fullScreenBannerViewDidTapAd(fullScreenBannerView: ZADNFullScreenBannerView) {
+  func fullScreenBannerViewDidTapAd(_ fullScreenBannerView: ZADNFullScreenBannerView) {
     print("広告タップ")
   }
 
-  func fullScreenBannerView(fullScreenBannerView: ZADNFullScreenBannerView, didFailAdWith errorType: ZADNFullScreenBannerErrorType) {
+  func fullScreenBannerView(_ fullScreenBannerView: ZADNFullScreenBannerView, didFailAdWith errorType: ZADNFullScreenBannerErrorType) {
     print("広告情報ロードエラー")
   }
 }

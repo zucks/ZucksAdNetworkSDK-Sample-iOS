@@ -24,12 +24,7 @@ class FullScreenInterstitialViewController: UIViewController {
     super.didReceiveMemoryWarning()
   }
 
-  // statusbarを非表示にする
-  override func prefersStatusBarHidden() -> Bool {
-    return true
-  }
-
-  @IBAction func showButtonDidPush(sender: AnyObject) {
+  @IBAction func showButtonDidPush(_ sender: AnyObject) {
     ZADNFullScreenInterstitialView.sharedInstance().show()
   }
 }
@@ -41,8 +36,7 @@ extension FullScreenInterstitialViewController:ZADNFullScreenInterstitialViewDel
     print("広告情報ロード完了")
   }
 
-  func fullScreenInterstitialViewDidLoadFailAdWith(
-    errorType: ZADNFullScreenInterstitialLoadErrorType) {
+  func fullScreenInterstitialViewDidLoadFailAdWith(_ errorType: ZADNFullScreenInterstitialLoadErrorType) {
     print("広告情報ロードエラー")
   }
 
@@ -50,8 +44,7 @@ extension FullScreenInterstitialViewController:ZADNFullScreenInterstitialViewDel
     print("広告表示")
   }
 
-  func fullScreenInterstitialViewDidShowFailAdWith(
-    errorType: ZADNFullScreenInterstitialShowErrorType) {
+  func fullScreenInterstitialViewDidShowFailAdWith(_ errorType: ZADNFullScreenInterstitialShowErrorType) {
     print("広告表示エラー")
     // 広告情報ロード開始(再度広告表示を行いたい場合)
     ZADNFullScreenInterstitialView.sharedInstance().loadAd()
