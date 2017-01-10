@@ -15,10 +15,10 @@ class BannerViewController: UIViewController, ZADNBannerViewDelegate {
     super.viewDidLoad()
 
     // 画面下部にバナーを配置する例(表示位置や枠のサイズに応じて、値を変更してください)
-    let bannerSize = CGSizeMake(320.0, 50.0)
+    let bannerSize = CGSize(width: 320, height: 50)
     let x = (self.view.frame.size.width - bannerSize.width) / 2.0
     let y = self.view.frame.size.height - bannerSize.height
-    let frame = CGRectMake(x, y, bannerSize.width, bannerSize.height)
+    let frame = CGRect(x: x, y: y, width: bannerSize.width, height: bannerSize.height)
 
     // 広告viewを初期化(設定されているframeIdはサンプル広告表示用です)
     let bannerView = ZADNBannerView.init(frame: frame, frameId: "_1d8ba78682")
@@ -37,11 +37,11 @@ class BannerViewController: UIViewController, ZADNBannerViewDelegate {
 
   // 広告の各イベントで処理を行いたい場合に実装してください(任意)
   // MARK: - ZADNBannerViewDelegate methods
-  func bannerViewDidReceiveAd(bannerView: ZADNBannerView) {
+  func bannerViewDidReceiveAd(_ bannerView: ZADNBannerView) {
     print("広告情報ロード完了")
   }
 
-  func bannerViewDidTapAd(bannerView: ZADNBannerView) {
+  func bannerViewDidTapAd(_ bannerView: ZADNBannerView) {
     print("広告タップ")
   }
 
