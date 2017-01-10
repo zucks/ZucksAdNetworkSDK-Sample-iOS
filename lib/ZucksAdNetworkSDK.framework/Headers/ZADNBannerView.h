@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "ZADNPlatform.h"
 
+NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNBannerViewDelegate;
 
 typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
@@ -19,8 +20,9 @@ typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
 
 @interface ZADNBannerView : UIView
 
-@property(copy, nonatomic) IBInspectable NSString *frameId;
-@property(weak, nonatomic) IBOutlet id<ZADNBannerViewDelegate> delegate;
+@property(nullable, copy, nonatomic) IBInspectable NSString *frameId;
+@property(nullable, weak, nonatomic)
+    IBOutlet id<ZADNBannerViewDelegate> delegate;
 @property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (CGSize)adjustedBannerSize:(CGSize)baseSize;
@@ -46,3 +48,4 @@ typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
 - (void)bannerViewDidTapAd:(ZADNBannerView *)bannerView;
 
 @end
+NS_ASSUME_NONNULL_END

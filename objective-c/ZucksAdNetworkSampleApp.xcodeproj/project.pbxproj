@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A10A0F61E0BC56D00083369 /* ZASFullScreenBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A10A0F51E0BC56D00083369 /* ZASFullScreenBannerViewController.m */; };
+		3A10A0F91E0BC59700083369 /* ZASFullScreenInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A10A0F81E0BC59700083369 /* ZASFullScreenInterstitialViewController.m */; };
 		3A21A3ED1BD0D66800500974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21A3EC1BD0D66800500974 /* main.m */; };
 		3A21A3F01BD0D66800500974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21A3EF1BD0D66800500974 /* AppDelegate.m */; };
 		3A21A3F61BD0D66800500974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A21A3F41BD0D66800500974 /* Main.storyboard */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A10A0F41E0BC56D00083369 /* ZASFullScreenBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASFullScreenBannerViewController.h; sourceTree = "<group>"; };
+		3A10A0F51E0BC56D00083369 /* ZASFullScreenBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASFullScreenBannerViewController.m; sourceTree = "<group>"; };
+		3A10A0F71E0BC59700083369 /* ZASFullScreenInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASFullScreenInterstitialViewController.h; sourceTree = "<group>"; };
+		3A10A0F81E0BC59700083369 /* ZASFullScreenInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASFullScreenInterstitialViewController.m; sourceTree = "<group>"; };
 		3A21A3E81BD0D66800500974 /* ZucksAdNetworkSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZucksAdNetworkSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A21A3EC1BD0D66800500974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A21A3EE1BD0D66800500974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +87,10 @@
 				3A3E97061C27B5B9002D9044 /* ZASBannerInterfaceBuilderViewController.m */,
 				3A21A4351BD0E34700500974 /* ZASInterstitialViewController.h */,
 				3A21A4361BD0E34700500974 /* ZASInterstitialViewController.m */,
+				3A10A0F41E0BC56D00083369 /* ZASFullScreenBannerViewController.h */,
+				3A10A0F51E0BC56D00083369 /* ZASFullScreenBannerViewController.m */,
+				3A10A0F71E0BC59700083369 /* ZASFullScreenInterstitialViewController.h */,
+				3A10A0F81E0BC59700083369 /* ZASFullScreenInterstitialViewController.m */,
 				3A21A3F41BD0D66800500974 /* Main.storyboard */,
 				3A21A3F71BD0D66800500974 /* Assets.xcassets */,
 				3A21A3FC1BD0D66800500974 /* Info.plist */,
@@ -168,12 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A10A0F91E0BC59700083369 /* ZASFullScreenInterstitialViewController.m in Sources */,
 				3A21A4281BD0DD6600500974 /* ZASBannerViewController.m in Sources */,
 				3AAF37981CED9C190073A52B /* ZASBannerSizeAdjustViewController.m in Sources */,
 				3A21A3F01BD0D66800500974 /* AppDelegate.m in Sources */,
 				3A21A3ED1BD0D66800500974 /* main.m in Sources */,
 				3A21A4371BD0E34700500974 /* ZASInterstitialViewController.m in Sources */,
 				3A3E97071C27B5B9002D9044 /* ZASBannerInterfaceBuilderViewController.m in Sources */,
+				3A10A0F61E0BC56D00083369 /* ZASFullScreenBannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +295,7 @@
 					"$(PROJECT_DIR)/../lib/",
 				);
 				INFOPLIST_FILE = ZucksAdNetworkSampleApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSampleApp;
@@ -300,7 +312,7 @@
 					"$(PROJECT_DIR)/../lib/",
 				);
 				INFOPLIST_FILE = ZucksAdNetworkSampleApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSampleApp;

@@ -1,3 +1,4 @@
+
 //
 //  BannerInterfaceBuilderViewController.swift
 //  ZucksAdNetworkSwiftSampleApp
@@ -21,15 +22,15 @@ class BannerInterfaceBuilderViewController: UIViewController, ZADNBannerViewDele
 
   // 広告の各イベントで処理を行いたい場合に実装してください(任意)
   // MARK: - ZADNBannerViewDelegate methods
-  func bannerViewDidReceiveAd(bannerView: ZADNBannerView!) {
+  func bannerViewDidReceiveAd(bannerView: ZADNBannerView) {
     print("広告情報ロード完了")
   }
 
-  func bannerViewDidTapAd(bannerView: ZADNBannerView!) {
+  func bannerViewDidTapAd(bannerView: ZADNBannerView) {
     print("広告タップ")
   }
 
-  func bannerView(bannerView: ZADNBannerView!,
+  func bannerView(bannerView: ZADNBannerView,
     didFailAdWithErrorType errorType: ZADNBannerErrorType) {
       print("広告情報ロードエラー")
   }
