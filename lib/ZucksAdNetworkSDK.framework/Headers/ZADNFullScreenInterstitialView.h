@@ -29,7 +29,8 @@ typedef NS_ENUM(NSInteger, ZADNFullScreenInterstitialShowErrorType) {
 @interface ZADNFullScreenInterstitialView : UIView
 
 @property(nullable, copy, nonatomic) NSString *frameId;
-@property(nullable, weak, nonatomic) id<ZADNFullScreenInterstitialViewDelegate> delegate;
+@property(nullable, weak, nonatomic)
+    id<ZADNFullScreenInterstitialViewDelegate> delegate;
 @property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (instancetype)sharedInstance;
