@@ -150,10 +150,17 @@
                                         <color key="textColor" red="0.27267757739999998" green="0.42578812919999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[PR]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYt-tK-ck6">
+                                        <rect key="frame" x="332" y="97" width="33" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="KCC-L1-afh" firstAttribute="top" secondItem="FAK-nY-wbZ" secondAttribute="bottom" constant="5" id="844-1j-WYo"/>
+                                    <constraint firstItem="DYt-tK-ck6" firstAttribute="centerY" secondItem="cI4-fR-ceo" secondAttribute="centerY" id="96y-GG-LsH"/>
                                     <constraint firstItem="Fli-iF-IDf" firstAttribute="top" secondItem="KCC-L1-afh" secondAttribute="bottom" constant="5" id="ATh-0i-F0u"/>
                                     <constraint firstItem="KCC-L1-afh" firstAttribute="leading" secondItem="HeA-fK-gQd" secondAttribute="trailing" constant="10" id="XgX-tR-Bpx"/>
                                     <constraint firstItem="HeA-fK-gQd" firstAttribute="top" secondItem="nF8-y0-qOa" secondAttribute="top" constant="5" id="bdi-c1-pPr"/>
@@ -163,6 +170,7 @@
                                     <constraint firstItem="HeA-fK-gQd" firstAttribute="leading" secondItem="nF8-y0-qOa" secondAttribute="leading" constant="5" id="dfa-Sh-oIo"/>
                                     <constraint firstItem="cI4-fR-ceo" firstAttribute="leading" secondItem="HeA-fK-gQd" secondAttribute="trailing" constant="10" id="iBY-yz-CN7"/>
                                     <constraint firstAttribute="height" constant="125" id="kkT-cT-sSz"/>
+                                    <constraint firstAttribute="trailing" secondItem="DYt-tK-ck6" secondAttribute="trailing" constant="10" id="nj6-Kz-Ufc"/>
                                     <constraint firstItem="cI4-fR-ceo" firstAttribute="top" secondItem="Fli-iF-IDf" secondAttribute="bottom" constant="5" id="ocj-1w-DE1"/>
                                     <constraint firstItem="geM-cs-QWp" firstAttribute="leading" secondItem="HeA-fK-gQd" secondAttribute="trailing" constant="10" id="tIA-62-acz"/>
                                     <constraint firstItem="FAK-nY-wbZ" firstAttribute="leading" secondItem="HeA-fK-gQd" secondAttribute="trailing" constant="10" id="wFX-II-MLL"/>
