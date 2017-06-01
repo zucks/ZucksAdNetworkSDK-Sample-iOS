@@ -6,7 +6,7 @@ iOS版ZucksAdNetworkSDKの導入サンプルアプリ
 - Banner
     - バナー広告の実装サンプル
 - Banner Size Adjust
-    - バナー広告のサイズアジャストの実装サンプル
+    - バナー広告のサイズアジャストの実装サンプル
 - Banner Interface Builder
     - バナー広告のStoryboard上での実装サンプル
 - Interstitial
