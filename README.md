@@ -12,11 +12,11 @@ iOS版ZucksAdNetworkSDKの導入サンプルアプリ
 - Interstitial
     - インタースティシャル広告の実装サンプル
 - FullScreen Banner
-    - 全画面インライン広告の実装サンプル
+    - 全画面インライン広告の実装サンプル
 - FullScreen Interstitial
-    - 全画面インタースティシャル広告の実装サンプル
+    - 全画面インタースティシャル広告の実装サンプル
 - Native Ad
-    - ネイティブ広告の実装サンプル
+    - ネイティブ広告の実装サンプル
 
 ## ZucksAdNetworkSDKの導入手順
 
