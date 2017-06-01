@@ -5,24 +5,23 @@
 //  Copyright (C) 2015 Zucks, Inc.
 //
 
-#import <UIKit/UIKit.h>
 #import "ZADNPlatform.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNBannerViewDelegate;
 
 typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
-    ZADNBannerErrorTypeOffline = 1,       // オフライン
-    ZADNBannerErrorTypeFrameIdUndefined,  // frameIDエラー
-    ZADNBannerErrorTypeSizeError,         // サイズエラー
-    ZADNBannerErrorTypeOtherError         // その他エラー
+  ZADNBannerErrorTypeOffline = 1,       // オフライン
+  ZADNBannerErrorTypeFrameIdUndefined,  // frameIDエラー
+  ZADNBannerErrorTypeSizeError,         // サイズエラー
+  ZADNBannerErrorTypeOtherError         // その他エラー
 };
 
 @interface ZADNBannerView : UIView
 
 @property(nullable, copy, nonatomic) IBInspectable NSString *frameId;
-@property(nullable, weak, nonatomic)
-    IBOutlet id<ZADNBannerViewDelegate> delegate;
+@property(nullable, weak, nonatomic) IBOutlet id<ZADNBannerViewDelegate> delegate;
 @property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (CGSize)adjustedBannerSize:(CGSize)baseSize;
