@@ -11,7 +11,8 @@ typedef NS_ENUM(NSInteger, ZADNPlatformType) {
   ZADNPlatformTypeDefault = 0,
   ZADNPlatformTypeAdmob,
   ZADNPlatformTypeUnity,
-  ZADNPlatformTypeMoPub
+  ZADNPlatformTypeMoPub,
+  ZADNPlatformTypeCocos2dx
 };
 
 @interface ZADNPlatform : NSObject
