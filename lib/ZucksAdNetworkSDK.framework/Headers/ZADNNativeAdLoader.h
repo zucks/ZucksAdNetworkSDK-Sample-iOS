@@ -11,10 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, ZADNNativeAdErrorType) {
-  ZADNNativeAdErrorTypeOffline = 1,       // オフライン
+  ZADNNativeAdErrorTypeOffline = 1,  // オフライン
   ZADNNativeAdErrorTypeFrameIdUndefined,  // frameIDエラー
-  ZADNNativeAdErrorTypeAdOutOfStock,      // 在庫切れ
-  ZADNNativeAdErrorTypeOtherError         // その他エラー
+  ZADNNativeAdErrorTypeAdOutOfStock,  // 在庫切れ
+  ZADNNativeAdErrorTypeOtherError  // その他エラー
 };
 
 typedef void (^ZADNNativeAdLoaderCompletionBlock)(
