@@ -24,7 +24,7 @@ class InterstitialViewController: UIViewController, ZADNInterstitialViewDelegate
     super.didReceiveMemoryWarning()
   }
 
-  @IBAction func showButtonDidPush(sender: AnyObject) {
+  @IBAction func showButtonDidPush(_ sender: AnyObject) {
     // 広告表示
     ZADNInterstitialView.sharedInstance().show()
   }
