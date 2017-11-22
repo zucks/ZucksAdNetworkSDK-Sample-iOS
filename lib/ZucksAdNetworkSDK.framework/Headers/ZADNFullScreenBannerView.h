@@ -12,11 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNFullScreenBannerViewDelegate;
 
 typedef NS_ENUM(NSInteger, ZADNFullScreenBannerErrorType) {
-  ZADNFullScreenBannerErrorTypeOffline = 1,  // オフライン
+  ZADNFullScreenBannerErrorTypeOffline = 1,       // オフライン
   ZADNFullScreenBannerErrorTypeFrameIdUndefined,  // frameIDエラー
-  ZADNFullScreenBannerErrorTypeSizeError,  // サイズエラー
-  ZADNFullScreenBannerErrorTypeAdOutOfStock,  // 在庫切れ
-  ZADNFullScreenBannerErrorTypeOtherError  // その他エラー
+  ZADNFullScreenBannerErrorTypeSizeError,         // サイズエラー
+  ZADNFullScreenBannerErrorTypeAdOutOfStock,      // 在庫切れ
+  ZADNFullScreenBannerErrorTypeOtherError         // その他エラー
 };
 
 @interface ZADNFullScreenBannerView : UIView

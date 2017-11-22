@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNBannerViewDelegate;
 
 typedef NS_ENUM(NSInteger, ZADNBannerErrorType) {
-  ZADNBannerErrorTypeOffline = 1,  // オフライン
+  ZADNBannerErrorTypeOffline = 1,       // オフライン
   ZADNBannerErrorTypeFrameIdUndefined,  // frameIDエラー
-  ZADNBannerErrorTypeSizeError,  // サイズエラー
-  ZADNBannerErrorTypeOtherError  // その他エラー
+  ZADNBannerErrorTypeSizeError,         // サイズエラー
+  ZADNBannerErrorTypeOtherError         // その他エラー
 };
 
 @interface ZADNBannerView : UIView
