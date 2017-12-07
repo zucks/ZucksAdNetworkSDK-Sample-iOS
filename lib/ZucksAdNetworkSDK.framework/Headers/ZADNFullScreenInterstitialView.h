@@ -12,18 +12,18 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNFullScreenInterstitialViewDelegate;
 
 typedef NS_ENUM(NSInteger, ZADNFullScreenInterstitialLoadErrorType) {
-  ZADNFullScreenInterstitialLoadErrorTypeOffline = 1,  // オフライン
+  ZADNFullScreenInterstitialLoadErrorTypeOffline = 1,       // オフライン
   ZADNFullScreenInterstitialLoadErrorTypeFrameIdUndefined,  // frameIDエラー
-  ZADNFullScreenInterstitialLoadErrorTypeAdOutOfStock,  // 在庫切れ
-  ZADNFullScreenInterstitialLoadErrorTypeOtherError  // その他エラー
+  ZADNFullScreenInterstitialLoadErrorTypeAdOutOfStock,      // 在庫切れ
+  ZADNFullScreenInterstitialLoadErrorTypeOtherError         // その他エラー
 };
 
 typedef NS_ENUM(NSInteger, ZADNFullScreenInterstitialShowErrorType) {
-  ZADNFullScreenInterstitialShowErrorTypeOffline = 1,  // オフライン
-  ZADNFullScreenInterstitialShowErrorTypeNoAdData,  // 広告情報未取得
-  ZADNFullScreenInterstitialShowErrorTypeLoading,  // 広告情報ロード中
+  ZADNFullScreenInterstitialShowErrorTypeOffline = 1,     // オフライン
+  ZADNFullScreenInterstitialShowErrorTypeNoAdData,        // 広告情報未取得
+  ZADNFullScreenInterstitialShowErrorTypeLoading,         // 広告情報ロード中
   ZADNFullScreenInterstitialShowErrorTypeAlreadyShowing,  // 広告表示中
-  ZADNFullScreenInterstitialShowErrorTypeOtherError  // その他エラー
+  ZADNFullScreenInterstitialShowErrorTypeOtherError       // その他エラー
 };
 
 @interface ZADNFullScreenInterstitialView : UIView
