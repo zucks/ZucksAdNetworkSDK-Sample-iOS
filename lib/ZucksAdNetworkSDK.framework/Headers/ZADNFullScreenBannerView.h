@@ -31,7 +31,6 @@ typedef NS_ENUM(NSInteger, ZADNFullScreenBannerErrorType) {
 - (id)init __attribute__((unavailable("init is not available")));
 - (id)initWithFrame:(CGRect)frame
     __attribute__((unavailable("init is not available")));
-
 @end
 
 @protocol ZADNFullScreenBannerViewDelegate<NSObject>
