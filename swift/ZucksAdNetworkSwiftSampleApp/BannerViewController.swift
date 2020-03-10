@@ -45,9 +45,9 @@ class BannerViewController: UIViewController, ZADNBannerViewDelegate {
     print("広告タップ")
   }
 
-  func bannerView(bannerView: ZADNBannerView,
-    didFailAdWithErrorType errorType: ZADNBannerErrorType) {
-      print("広告情報ロードエラー")
+  func bannerView(_ bannerView: ZADNBannerView,
+                  didFailAdWith errorType: ZADNBannerErrorType) {
+    print("広告情報ロードエラー")
   }
 
 
