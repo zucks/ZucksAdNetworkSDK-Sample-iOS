@@ -20,7 +20,6 @@
 		3A8BD73D1ED55ED600E2DC71 /* ZASNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BD73C1ED55ED600E2DC71 /* ZASNativeAdViewController.m */; };
 		3AAF37981CED9C190073A52B /* ZASBannerSizeAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF37971CED9C190073A52B /* ZASBannerSizeAdjustViewController.m */; };
 		3ABA02D61C7AA8C20059A352 /* ZucksAdNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABA02D51C7AA8C20059A352 /* ZucksAdNetworkSDK.framework */; };
-		5012B53C24173062000FE20E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5012B53B24173062000FE20E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		3AAF37961CED9C190073A52B /* ZASBannerSizeAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASBannerSizeAdjustViewController.h; sourceTree = "<group>"; };
 		3AAF37971CED9C190073A52B /* ZASBannerSizeAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASBannerSizeAdjustViewController.m; sourceTree = "<group>"; };
 		3ABA02D51C7AA8C20059A352 /* ZucksAdNetworkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZucksAdNetworkSDK.framework; path = ../lib/ZucksAdNetworkSDK.framework; sourceTree = "<group>"; };
-		5012B53B24173062000FE20E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5012B53C24173062000FE20E /* WebKit.framework in Frameworks */,
 				3ABA02D61C7AA8C20059A352 /* ZucksAdNetworkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,7 +117,6 @@
 		5012B53A24173062000FE20E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5012B53B24173062000FE20E /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

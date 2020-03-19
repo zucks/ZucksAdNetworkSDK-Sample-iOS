@@ -32,6 +32,7 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 @property(nonatomic) ZADNPlatform *zucksPlatform;
 
 + (instancetype)sharedInstance;
++ (BOOL)sharedInstanceExist;
 - (void)loadAd;
 - (void)show;
 - (void)dismiss;
@@ -46,10 +47,10 @@ typedef NS_ENUM(NSInteger, ZADNInterstitialShowErrorType) {
 
 - (void)interstitialViewDidReceiveAd;
 - (void)interstitialViewDidLoadFailAdWithErrorType:
-        (ZADNInterstitialLoadErrorType)errorType;
+    (ZADNInterstitialLoadErrorType)errorType;
 - (void)interstitialViewDidShowAd;
 - (void)interstitialViewDidShowFailAdWithErrorType:
-        (ZADNInterstitialShowErrorType)errorType;
+    (ZADNInterstitialShowErrorType)errorType;
 - (void)interstitialViewCancelDisplayRate;
 - (void)interstitialViewDidTapAd;
 - (void)interstitialViewDidDismissAd;

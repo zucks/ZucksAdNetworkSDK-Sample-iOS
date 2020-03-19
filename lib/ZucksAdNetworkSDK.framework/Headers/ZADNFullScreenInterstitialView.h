@@ -47,10 +47,10 @@ typedef NS_ENUM(NSInteger, ZADNFullScreenInterstitialShowErrorType) {
 
 - (void)fullScreenInterstitialViewDidReceiveAd;
 - (void)fullScreenInterstitialViewDidLoadFailAdWithErrorType:
-        (ZADNFullScreenInterstitialLoadErrorType)errorType;
+    (ZADNFullScreenInterstitialLoadErrorType)errorType;
 - (void)fullScreenInterstitialViewDidShowAd;
 - (void)fullScreenInterstitialViewDidShowFailAdWithErrorType:
-        (ZADNFullScreenInterstitialShowErrorType)errorType;
+    (ZADNFullScreenInterstitialShowErrorType)errorType;
 - (void)fullScreenInterstitialViewCancelDisplayRate;
 - (void)fullScreenInterstitialViewDidTapAd;
 - (void)fullScreenInterstitialViewDidDismissAd;
