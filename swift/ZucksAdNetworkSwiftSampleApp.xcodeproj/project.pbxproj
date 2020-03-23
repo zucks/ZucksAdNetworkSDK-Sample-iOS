@@ -19,7 +19,6 @@
 		3ABA03121C7AAAC00059A352 /* ZucksAdNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */; };
 		3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */; };
 		3ABA03161C7AAF1A0059A352 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */; };
-		5012B53F2417311A000FE20E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5012B53E2417311A000FE20E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZucksAdNetworkSDK.framework; path = ../lib/ZucksAdNetworkSDK.framework; sourceTree = "<group>"; };
 		3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerInterfaceBuilderViewController.swift; sourceTree = "<group>"; };
 		3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
-		5012B53E2417311A000FE20E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5012B53F2417311A000FE20E /* WebKit.framework in Frameworks */,
 				3ABA03121C7AAAC00059A352 /* ZucksAdNetworkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +90,6 @@
 		5012B53D24173119000FE20E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5012B53E2417311A000FE20E /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -37,11 +37,11 @@ typedef NS_ENUM(NSInteger, ZADNFullScreenBannerErrorType) {
 @optional
 
 - (void)fullScreenBannerViewDidReceiveAd:
-        (ZADNFullScreenBannerView *)fullScreenBannerView;
+    (ZADNFullScreenBannerView *)fullScreenBannerView;
 - (void)fullScreenBannerView:(ZADNFullScreenBannerView *)fullScreenBannerView
       didFailAdWithErrorType:(ZADNFullScreenBannerErrorType)errorType;
 - (void)fullScreenBannerViewDidTapAd:
-        (ZADNFullScreenBannerView *)fullScreenBannerView;
+    (ZADNFullScreenBannerView *)fullScreenBannerView;
 
 @end
 NS_ASSUME_NONNULL_END
