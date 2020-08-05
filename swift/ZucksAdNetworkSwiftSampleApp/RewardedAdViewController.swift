@@ -66,12 +66,14 @@ extension RewardedAdViewController: ZADNRewardedAdDelegate {
   func rewardedAdDidDisappear(_ rewardedAd: ZADNRewardedAd) {
     print("広告閉じた直後")
     self.rewardedAd = ZADNRewardedAd(frameId: rewardedAd.frameId)
+    self.rewardedAd.delegate = self
     loadButton.isEnabled = true
   }
   
   func rewardedAd(_ rewardedAd: ZADNRewardedAd, didFailToPlayWithError error: Error) {
     print("広告表示エラー(\(error))")
     self.rewardedAd = ZADNRewardedAd(frameId: rewardedAd.frameId)
+    self.rewardedAd.delegate = self
     loadButton.isEnabled = true
   }
   

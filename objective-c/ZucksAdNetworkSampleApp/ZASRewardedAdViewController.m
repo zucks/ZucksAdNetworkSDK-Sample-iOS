@@ -72,12 +72,14 @@
 - (void)rewardedAdDidDisappear:(ZADNRewardedAd *)rewardedAd {
   NSLog(@"広告閉じた直後");
   self.rewardedAd = [[ZADNRewardedAd alloc] initWithFrameId:rewardedAd.frameId];
+  self.rewardedAd.delegate = self;
   [self.loadButton setEnabled:YES];
 }
 
 - (void)rewardedAd:(ZADNRewardedAd *)rewardedAd didFailToPlayWithError:(NSError *)error {
   NSLog(@"広告表示エラー(%@)", error);
   self.rewardedAd = [[ZADNRewardedAd alloc] initWithFrameId:rewardedAd.frameId];
+  self.rewardedAd.delegate = self;
   [self.loadButton setEnabled:YES];
 }
 
