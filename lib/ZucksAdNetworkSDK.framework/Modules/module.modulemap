@@ -5,4 +5,7 @@ framework module ZucksAdNetworkSDK {
   link framework "CoreTelephony"
   link framework "SystemConfiguration"
   link framework "WebKit"
+  link framework "AVFoundation"
+  link framework "CoreMedia"
+  link framework "StoreKit"
 }

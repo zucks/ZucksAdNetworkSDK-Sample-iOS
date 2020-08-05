@@ -19,6 +19,8 @@
 		3ABA03121C7AAAC00059A352 /* ZucksAdNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */; };
 		3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */; };
 		3ABA03161C7AAF1A0059A352 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */; };
+		CCECD69024D55FA4007AD904 /* RewardedAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD68F24D55FA4007AD904 /* RewardedAdViewController.swift */; };
+		CCECD6A324D9B0C5007AD904 /* ZucksAdNetworkSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCECD6A224D9B0C5007AD904 /* ZucksAdNetworkSDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZucksAdNetworkSDK.framework; path = ../lib/ZucksAdNetworkSDK.framework; sourceTree = "<group>"; };
 		3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerInterfaceBuilderViewController.swift; sourceTree = "<group>"; };
 		3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		CCECD68F24D55FA4007AD904 /* RewardedAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdViewController.swift; sourceTree = "<group>"; };
+		CCECD6A224D9B0C5007AD904 /* ZucksAdNetworkSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZucksAdNetworkSDKResources.bundle; path = ../lib/ZucksAdNetworkSDK.framework/Resources/ZucksAdNetworkSDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		3ABA02D71C7AAAAD0059A352 = {
 			isa = PBXGroup;
 			children = (
+				CCECD6A224D9B0C5007AD904 /* ZucksAdNetworkSDKResources.bundle */,
 				3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */,
 				3ABA02E21C7AAAAD0059A352 /* ZucksAdNetworkSwiftSampleApp */,
 				3ABA02E11C7AAAAD0059A352 /* Products */,
@@ -79,6 +84,7 @@
 				3A8A4FBC1E0BC16100FEBA95 /* FullScreenBannerViewController.swift */,
 				3A8A4FBE1E0BC17600FEBA95 /* FullScreenInterstitialViewController.swift */,
 				3A8BD7451ED7F98200E2DC71 /* NativeAdViewController.swift */,
+				CCECD68F24D55FA4007AD904 /* RewardedAdViewController.swift */,
 				3ABA02E71C7AAAAD0059A352 /* Main.storyboard */,
 				3ABA02EA1C7AAAAD0059A352 /* Assets.xcassets */,
 				3ABA02EC1C7AAAAD0059A352 /* LaunchScreen.storyboard */,
@@ -156,6 +162,7 @@
 				3ABA02EE1C7AAAAD0059A352 /* LaunchScreen.storyboard in Resources */,
 				3ABA02EB1C7AAAAD0059A352 /* Assets.xcassets in Resources */,
 				3ABA02E91C7AAAAD0059A352 /* Main.storyboard in Resources */,
+				CCECD6A324D9B0C5007AD904 /* ZucksAdNetworkSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +179,7 @@
 				3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */,
 				3ABA02E61C7AAAAD0059A352 /* BannerViewController.swift in Sources */,
 				3A8A4FBD1E0BC16100FEBA95 /* FullScreenBannerViewController.swift in Sources */,
+				CCECD69024D55FA4007AD904 /* RewardedAdViewController.swift in Sources */,
 				3ABA02E41C7AAAAD0059A352 /* AppDelegate.swift in Sources */,
 				3AAF379A1CED9ED40073A52B /* BannerSizeAdjustViewController.swift in Sources */,
 			);
