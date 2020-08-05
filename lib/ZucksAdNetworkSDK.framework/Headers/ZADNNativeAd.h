@@ -5,7 +5,7 @@
 //  Copyright (C) 2015 Zucks, Inc.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol ZADNNativeAdDelegate;
