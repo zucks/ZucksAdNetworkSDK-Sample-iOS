@@ -17,6 +17,8 @@ iOS版ZucksAdNetworkSDKの導入サンプルアプリ
     - 全画面インタースティシャル広告の実装サンプル
 - Native Ad
     - ネイティブ広告の実装サンプル
+- Rewarded Ad
+    - リワード広告の実装サンプル
 
 ## ZucksAdNetworkSDKの導入手順
 
