@@ -160,6 +160,7 @@
 				TargetAttributes = {
 					3A21A3E71BD0D66800500974 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = M43HMJAJ2F;
 					};
 				};
 			};
@@ -315,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M43HMJAJ2F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../lib/",
@@ -333,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M43HMJAJ2F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../lib/",
