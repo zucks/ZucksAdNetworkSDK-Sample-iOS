@@ -19,7 +19,6 @@
 		3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */; };
 		3ABA03161C7AAF1A0059A352 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */; };
 		A7D5721A2BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */; };
-		CCECD6B124DA7FF8007AD904 /* RewardedAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerInterfaceBuilderViewController.swift; sourceTree = "<group>"; };
 		3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
 		A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZucksAdNetworkSDK.xcframework; path = ../lib/ZucksAdNetworkSDK.xcframework; sourceTree = "<group>"; };
-		CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 				3A8A4FBC1E0BC16100FEBA95 /* FullScreenBannerViewController.swift */,
 				3A8A4FBE1E0BC17600FEBA95 /* FullScreenInterstitialViewController.swift */,
 				3A8BD7451ED7F98200E2DC71 /* NativeAdViewController.swift */,
-				CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */,
 				3ABA02E71C7AAAAD0059A352 /* Main.storyboard */,
 				3ABA02EA1C7AAAAD0059A352 /* Assets.xcassets */,
 				3ABA02EC1C7AAAAD0059A352 /* LaunchScreen.storyboard */,
@@ -175,7 +172,6 @@
 				3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */,
 				3ABA02E61C7AAAAD0059A352 /* BannerViewController.swift in Sources */,
 				3A8A4FBD1E0BC16100FEBA95 /* FullScreenBannerViewController.swift in Sources */,
-				CCECD6B124DA7FF8007AD904 /* RewardedAdViewController.swift in Sources */,
 				3ABA02E41C7AAAAD0059A352 /* AppDelegate.swift in Sources */,
 				3AAF379A1CED9ED40073A52B /* BannerSizeAdjustViewController.swift in Sources */,
 			);
