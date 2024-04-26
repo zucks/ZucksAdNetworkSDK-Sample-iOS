@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		3ABA02EE1C7AAAAD0059A352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA02EC1C7AAAAD0059A352 /* LaunchScreen.storyboard */; };
 		3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */; };
 		3ABA03161C7AAF1A0059A352 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */; };
+		A7D5721A2BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */; };
 		CCECD6B124DA7FF8007AD904 /* RewardedAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		3ABA02EF1C7AAAAD0059A352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerInterfaceBuilderViewController.swift; sourceTree = "<group>"; };
 		3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZucksAdNetworkSDK.xcframework; path = ../lib/ZucksAdNetworkSDK.xcframework; sourceTree = "<group>"; };
 		CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D5721A2BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 		5012B53D24173119000FE20E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,7 +296,10 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../lib/";
 				INFOPLIST_FILE = ZucksAdNetworkSwiftSampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSwiftSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,7 +313,10 @@
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../lib/";
 				INFOPLIST_FILE = ZucksAdNetworkSwiftSampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSwiftSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
