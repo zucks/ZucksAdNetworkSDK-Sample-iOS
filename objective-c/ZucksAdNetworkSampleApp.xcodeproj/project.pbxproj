@@ -19,8 +19,6 @@
 		3A5A84A31BD0F949009227B2 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A84A21BD0F949009227B2 /* Launch Screen.xib */; };
 		3A8BD73D1ED55ED600E2DC71 /* ZASNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BD73C1ED55ED600E2DC71 /* ZASNativeAdViewController.m */; };
 		3AAF37981CED9C190073A52B /* ZASBannerSizeAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF37971CED9C190073A52B /* ZASBannerSizeAdjustViewController.m */; };
-		3ABA02D61C7AA8C20059A352 /* ZucksAdNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABA02D51C7AA8C20059A352 /* ZucksAdNetworkSDK.framework */; };
-		CCECD6B524DA8424007AD904 /* ZucksAdNetworkSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCECD6B424DA8424007AD904 /* ZucksAdNetworkSDKResources.bundle */; };
 		CCECD6B824DA8451007AD904 /* ZASRewardedAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECD6B724DA8451007AD904 /* ZASRewardedAdViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +45,6 @@
 		3A8BD73C1ED55ED600E2DC71 /* ZASNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASNativeAdViewController.m; sourceTree = "<group>"; };
 		3AAF37961CED9C190073A52B /* ZASBannerSizeAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASBannerSizeAdjustViewController.h; sourceTree = "<group>"; };
 		3AAF37971CED9C190073A52B /* ZASBannerSizeAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASBannerSizeAdjustViewController.m; sourceTree = "<group>"; };
-		3ABA02D51C7AA8C20059A352 /* ZucksAdNetworkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZucksAdNetworkSDK.framework; path = ../lib/ZucksAdNetworkSDK.framework; sourceTree = "<group>"; };
-		CCECD6B424DA8424007AD904 /* ZucksAdNetworkSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZucksAdNetworkSDKResources.bundle; path = ../lib/ZucksAdNetworkSDK.framework/Resources/ZucksAdNetworkSDKResources.bundle; sourceTree = "<group>"; };
 		CCECD6B624DA8451007AD904 /* ZASRewardedAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZASRewardedAdViewController.h; sourceTree = "<group>"; };
 		CCECD6B724DA8451007AD904 /* ZASRewardedAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZASRewardedAdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABA02D61C7AA8C20059A352 /* ZucksAdNetworkSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +63,6 @@
 		3A21A3DF1BD0D66800500974 = {
 			isa = PBXGroup;
 			children = (
-				CCECD6B424DA8424007AD904 /* ZucksAdNetworkSDKResources.bundle */,
-				3ABA02D51C7AA8C20059A352 /* ZucksAdNetworkSDK.framework */,
 				3A21A3EA1BD0D66800500974 /* ZucksAdNetworkSampleApp */,
 				3A21A3E91BD0D66800500974 /* Products */,
 				5012B53A24173062000FE20E /* Frameworks */,
@@ -190,7 +183,6 @@
 				3A21A3F81BD0D66800500974 /* Assets.xcassets in Resources */,
 				3A21A3F61BD0D66800500974 /* Main.storyboard in Resources */,
 				3A5A84A31BD0F949009227B2 /* Launch Screen.xib in Resources */,
-				CCECD6B524DA8424007AD904 /* ZucksAdNetworkSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
