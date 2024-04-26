@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		3A5A84A31BD0F949009227B2 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A84A21BD0F949009227B2 /* Launch Screen.xib */; };
 		3A8BD73D1ED55ED600E2DC71 /* ZASNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BD73C1ED55ED600E2DC71 /* ZASNativeAdViewController.m */; };
 		3AAF37981CED9C190073A52B /* ZASBannerSizeAdjustViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF37971CED9C190073A52B /* ZASBannerSizeAdjustViewController.m */; };
+		A7D572162BDB77E70048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D572152BDB77E70048834E /* ZucksAdNetworkSDK.xcframework */; };
 		CCECD6B824DA8451007AD904 /* ZASRewardedAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECD6B724DA8451007AD904 /* ZASRewardedAdViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		3A8BD73C1ED55ED600E2DC71 /* ZASNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASNativeAdViewController.m; sourceTree = "<group>"; };
 		3AAF37961CED9C190073A52B /* ZASBannerSizeAdjustViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASBannerSizeAdjustViewController.h; sourceTree = "<group>"; };
 		3AAF37971CED9C190073A52B /* ZASBannerSizeAdjustViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASBannerSizeAdjustViewController.m; sourceTree = "<group>"; };
+		A7D572152BDB77E70048834E /* ZucksAdNetworkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZucksAdNetworkSDK.xcframework; path = ../lib/ZucksAdNetworkSDK.xcframework; sourceTree = "<group>"; };
 		CCECD6B624DA8451007AD904 /* ZASRewardedAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZASRewardedAdViewController.h; sourceTree = "<group>"; };
 		CCECD6B724DA8451007AD904 /* ZASRewardedAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZASRewardedAdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D572162BDB77E70048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +121,7 @@
 		5012B53A24173062000FE20E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7D572152BDB77E70048834E /* ZucksAdNetworkSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -313,7 +317,10 @@
 				);
 				INFOPLIST_FILE = ZucksAdNetworkSampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSampleApp;
@@ -331,7 +338,10 @@
 				);
 				INFOPLIST_FILE = ZucksAdNetworkSampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSampleApp;
