@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -122,7 +122,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Zucks, Inc.";
+				ORGANIZATIONNAME = "CARTA MARKETING FIRM Inc.";
 				TargetAttributes = {
 					3ABA02DF1C7AAAAD0059A352 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -130,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = 3ABA02DB1C7AAAAD0059A352 /* Build configuration list for PBXProject "ZucksAdNetworkSwiftSampleApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
