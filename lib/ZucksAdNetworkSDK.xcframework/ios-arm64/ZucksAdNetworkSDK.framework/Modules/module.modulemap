@@ -1,0 +1,17 @@
+framework module ZucksAdNetworkSDK {
+  umbrella "Headers"
+
+  link framework "WebKit"
+  link framework "UIKit"
+  link framework "AppTrackingTransparency"
+  link framework "AVFoundation"
+  link framework "StoreKit"
+  link framework "Foundation"
+  link framework "CoreTelephony"
+  link framework "SystemConfiguration"
+  link framework "AdSupport"
+  link framework "CoreMedia"
+
+  export *
+  module * { export * }
+}

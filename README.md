@@ -1,5 +1,6 @@
 # ZucksAdNetworkSDK SampleApp for iOS
-iOS版ZucksAdNetworkSDKの導入サンプルアプリ
+
+iOS版Zucks Ad Network SDKの導入サンプルアプリ
 
 ## 画面構成
 
@@ -17,10 +18,8 @@ iOS版ZucksAdNetworkSDKの導入サンプルアプリ
     - 全画面インタースティシャル広告の実装サンプル
 - Native Ad
     - ネイティブ広告の実装サンプル
-- Rewarded Ad
-    - リワード広告の実装サンプル
 
-## ZucksAdNetworkSDKの導入手順
+## Zucks Ad Network SDKの導入手順
 
 SDKの導入手順に関しては下記ページをご確認ください。
 

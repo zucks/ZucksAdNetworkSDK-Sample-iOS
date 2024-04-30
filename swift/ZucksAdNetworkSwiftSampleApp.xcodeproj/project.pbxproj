@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,11 +16,9 @@
 		3ABA02E91C7AAAAD0059A352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA02E71C7AAAAD0059A352 /* Main.storyboard */; };
 		3ABA02EB1C7AAAAD0059A352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA02EA1C7AAAAD0059A352 /* Assets.xcassets */; };
 		3ABA02EE1C7AAAAD0059A352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABA02EC1C7AAAAD0059A352 /* LaunchScreen.storyboard */; };
-		3ABA03121C7AAAC00059A352 /* ZucksAdNetworkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */; };
 		3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */; };
 		3ABA03161C7AAF1A0059A352 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */; };
-		CCECD6B124DA7FF8007AD904 /* RewardedAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */; };
-		CCECD6B324DA82C0007AD904 /* ZucksAdNetworkSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCECD6B224DA82C0007AD904 /* ZucksAdNetworkSDKResources.bundle */; };
+		A7D5721A2BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +33,9 @@
 		3ABA02EA1C7AAAAD0059A352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABA02ED1C7AAAAD0059A352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ABA02EF1C7AAAAD0059A352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZucksAdNetworkSDK.framework; path = ../lib/ZucksAdNetworkSDK.framework; sourceTree = "<group>"; };
 		3ABA03131C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerInterfaceBuilderViewController.swift; sourceTree = "<group>"; };
 		3ABA03151C7AAF1A0059A352 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
-		CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAdViewController.swift; sourceTree = "<group>"; };
-		CCECD6B224DA82C0007AD904 /* ZucksAdNetworkSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZucksAdNetworkSDKResources.bundle; path = ../lib/ZucksAdNetworkSDK.framework/Resources/ZucksAdNetworkSDKResources.bundle; sourceTree = "<group>"; };
+		A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZucksAdNetworkSDK.xcframework; path = ../lib/ZucksAdNetworkSDK.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ABA03121C7AAAC00059A352 /* ZucksAdNetworkSDK.framework in Frameworks */,
+				A7D5721A2BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,8 +53,6 @@
 		3ABA02D71C7AAAAD0059A352 = {
 			isa = PBXGroup;
 			children = (
-				CCECD6B224DA82C0007AD904 /* ZucksAdNetworkSDKResources.bundle */,
-				3ABA03111C7AAAC00059A352 /* ZucksAdNetworkSDK.framework */,
 				3ABA02E21C7AAAAD0059A352 /* ZucksAdNetworkSwiftSampleApp */,
 				3ABA02E11C7AAAAD0059A352 /* Products */,
 				5012B53D24173119000FE20E /* Frameworks */,
@@ -84,7 +78,6 @@
 				3A8A4FBC1E0BC16100FEBA95 /* FullScreenBannerViewController.swift */,
 				3A8A4FBE1E0BC17600FEBA95 /* FullScreenInterstitialViewController.swift */,
 				3A8BD7451ED7F98200E2DC71 /* NativeAdViewController.swift */,
-				CCECD6B024DA7FF8007AD904 /* RewardedAdViewController.swift */,
 				3ABA02E71C7AAAAD0059A352 /* Main.storyboard */,
 				3ABA02EA1C7AAAAD0059A352 /* Assets.xcassets */,
 				3ABA02EC1C7AAAAD0059A352 /* LaunchScreen.storyboard */,
@@ -96,6 +89,7 @@
 		5012B53D24173119000FE20E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7D572192BDB7A0E0048834E /* ZucksAdNetworkSDK.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +122,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "Zucks, Inc.";
+				ORGANIZATIONNAME = "CARTA MARKETING FIRM Inc.";
 				TargetAttributes = {
 					3ABA02DF1C7AAAAD0059A352 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -136,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = 3ABA02DB1C7AAAAD0059A352 /* Build configuration list for PBXProject "ZucksAdNetworkSwiftSampleApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -162,7 +156,6 @@
 				3ABA02EE1C7AAAAD0059A352 /* LaunchScreen.storyboard in Resources */,
 				3ABA02EB1C7AAAAD0059A352 /* Assets.xcassets in Resources */,
 				3ABA02E91C7AAAAD0059A352 /* Main.storyboard in Resources */,
-				CCECD6B324DA82C0007AD904 /* ZucksAdNetworkSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +172,6 @@
 				3ABA03141C7AAD9D0059A352 /* BannerInterfaceBuilderViewController.swift in Sources */,
 				3ABA02E61C7AAAAD0059A352 /* BannerViewController.swift in Sources */,
 				3A8A4FBD1E0BC16100FEBA95 /* FullScreenBannerViewController.swift in Sources */,
-				CCECD6B124DA7FF8007AD904 /* RewardedAdViewController.swift in Sources */,
 				3ABA02E41C7AAAAD0059A352 /* AppDelegate.swift in Sources */,
 				3AAF379A1CED9ED40073A52B /* BannerSizeAdjustViewController.swift in Sources */,
 			);
@@ -243,7 +235,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -283,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -299,8 +291,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../lib/";
 				INFOPLIST_FILE = ZucksAdNetworkSwiftSampleApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSwiftSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -313,8 +308,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../lib/";
 				INFOPLIST_FILE = ZucksAdNetworkSwiftSampleApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.zucks.sdk.ZucksAdNetworkSwiftSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
