@@ -5,6 +5,7 @@
 //  Copyright (C) 2015 Zucks, Inc.
 //
 
+#import "ZADNPlatform.h"
 #import "ZADNNativeAd.h"
 #import <Foundation/Foundation.h>
 
